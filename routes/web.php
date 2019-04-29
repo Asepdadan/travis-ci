@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 //test commit
+Route::get('test',function(){
+	return "hello";
+});
