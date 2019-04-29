@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('test',function(){
 	return "hello";
 });
+
+Route::post('json', 'PhpUnitController@json');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
